@@ -5,6 +5,7 @@ import {
   MethodologyBanner,
   ProductReviewBanner,
   HelpBanner,
+  Footer,
 } from "../components/";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <MethodologyBanner />
       <ProductReviewBanner />
       <HelpBanner />
+      <Footer />
     </div>
   );
 }

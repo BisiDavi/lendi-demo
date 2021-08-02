@@ -4,10 +4,10 @@ import helpLinks from "@json/help.json";
 export default function HelpBanner() {
   return (
     <div className="help-banner flex flex-col p-20">
-      <h3 className="text-center text-3xl font-bold mb-5">
+      <h3 className="text-center text-4xl font-medium mb-14">
         We&#39;re here to help
       </h3>
-      <p className="text-center text-lg mb-5">
+      <p className="text-center text-xl mb-6">
         Our experts will help you search, choose and settle your home loan
         online. Chat to one of our Home Loan Specialists at a time that suits
         you.
