@@ -1,54 +1,64 @@
-[
-  {
-    "main": [{ "text": "Home Loans", "link": "#home-loan" }],
-    "sub": [
-      { "text": "Find your home loan", "link": "#link" },
-      { "text": "Refinance your loan", "link": "#link" },
-      { "text": "Buy your first home", "link": "#link" },
-      { "text": "Buy your next home", "link": "#link" },
-      { "text": "Invest in property", "link": "#link" },
-      { "text": "Build your home", "link": "#link" },
-      { "text": "Property value report", "link": "#link" }
-    ]
-  },
-  {
-    "main": [{ "text": "Calculators", "link": "#calculator" }],
-    "sub": [
-      { "text": "Repayment calculator", "link": "#link" },
-      { "text": "Borrowing power calculator", "link": "#link" },
-      { "text": "Offset calculator", "link": "#link" },
-      { "text": "Home equity calculator", "link": "#link" },
-      { "text": "LMI calculator", "link": "#link" },
-      { "text": "Debt consolidation calculator", "link": "#link" },
-      { "text": "Stamp duty calculator", "link": "#link" },
-      { "text": "Free property report", "link": "#link" }
-    ]
-  },
-  {
-    "main": [{ "text": "Get Inspired", "link": "#get-inspired" }],
-    "sub": [
-      { "text": "Home design", "link": "#link" },
-      { "text": "Lendi homes", "link": "#link" },
-      { "text": "Finance", "link": "#link" },
-      { "text": "Property", "link": "#link" },
-      { "text": "Lifestyle", "link": "#link" },
-      { "text": "Insights", "link": "#link" }
-    ]
-  },
-  {
-    "main": [{ "text": "FAQs", "link": "#link" }],
-    "sub": [
-      { "text": "Home loan terms", "link": "#link" },
-      { "text": "Applying for a home loan", "link": "#link" },
-      { "text": "First home owners", "link": "#link" },
-      { "text": "Fees", "link": "#link" },
-      { "text": "Property reports", "link": "#link" },
-      { "text": "Investing in property", "link": "#link" },
-      { "text": "What does Lendi do", "link": "#link" },
-      { "text": "Loan types", "link": "#link" },
-      { "text": "Finance", "link": "#link" },
-      { "text": "Repayments", "link": "#link" },
-      { "text": "Rates", "link": "#link" }
-    ]
-  }
-]
+{
+  "siteLink": [
+    {
+      "main": [{ "text": "Home Loans", "link": "#home-loan" }],
+      "sub": [
+        { "text": "Find your home loan", "link": "#link" },
+        { "text": "Refinance your loan", "link": "#link" },
+        { "text": "Buy your first home", "link": "#link" },
+        { "text": "Buy your next home", "link": "#link" },
+        { "text": "Invest in property", "link": "#link" },
+        { "text": "Build your home", "link": "#link" },
+        { "text": "Property value report", "link": "#link" }
+      ]
+    },
+    {
+      "main": [{ "text": "Calculators", "link": "#calculator" }],
+      "sub": [
+        { "text": "Repayment calculator", "link": "#link" },
+        { "text": "Borrowing power calculator", "link": "#link" },
+        { "text": "Offset calculator", "link": "#link" },
+        { "text": "Home equity calculator", "link": "#link" },
+        { "text": "LMI calculator", "link": "#link" },
+        { "text": "Debt consolidation calculator", "link": "#link" },
+        { "text": "Stamp duty calculator", "link": "#link" },
+        { "text": "Free property report", "link": "#link" }
+      ]
+    },
+    {
+      "main": [{ "text": "Get Inspired", "link": "#get-inspired" }],
+      "sub": [
+        { "text": "Home design", "link": "#link" },
+        { "text": "Lendi homes", "link": "#link" },
+        { "text": "Finance", "link": "#link" },
+        { "text": "Property", "link": "#link" },
+        { "text": "Lifestyle", "link": "#link" },
+        { "text": "Insights", "link": "#link" }
+      ]
+    },
+    {
+      "main": [{ "text": "FAQs", "link": "#link" }],
+      "sub": [
+        { "text": "Home loan terms", "link": "#link" },
+        { "text": "Applying for a home loan", "link": "#link" },
+        { "text": "First home owners", "link": "#link" },
+        { "text": "Fees", "link": "#link" },
+        { "text": "Property reports", "link": "#link" },
+        { "text": "Investing in property", "link": "#link" },
+        { "text": "What does Lendi do", "link": "#link" },
+        { "text": "Loan types", "link": "#link" },
+        { "text": "Finance", "link": "#link" },
+        { "text": "Repayments", "link": "#link" },
+        { "text": "Rates", "link": "#link" }
+      ]
+    }
+  ],
+  "sitePages": [
+    { "name": "About us", "link": "#link" },
+    { "name": "Media", "link": "#link" },
+    { "name": "Careers", "link": "#link" },
+    { "name": "Privacy policy", "link": "#link" },
+    { "name": "Credit guide", "link": "#link" },
+    { "name": "Contact us", "link": "#link" }
+  ]
+}

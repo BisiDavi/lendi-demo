@@ -5,3 +5,15 @@
 .footer a:hover {
   text-decoration: underline;
 }
+
+.footer span a:hover {
+  text-decoration: none;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer li:last-child span {
+  display: none;
+}
