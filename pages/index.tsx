@@ -4,6 +4,7 @@ import {
   PartnersBanner,
   MethodologyBanner,
   ProductReviewBanner,
+  HelpBanner,
 } from "../components/";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <PartnersBanner />
       <MethodologyBanner />
       <ProductReviewBanner />
+      <HelpBanner />
     </div>
   );
 }
