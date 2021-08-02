@@ -28,7 +28,10 @@ export default function PartnersBanner() {
               will negotiate on your behalf to get you the best deal possible.
             </p>
             <Button
-              className={`${classNames(s.button, s.green)} mt-5`}
+              className={`${classNames(
+                s.button,
+                s.green
+              )} mt-10 p-3 px-8 rounded-full`}
               text="Compare More Lenders"
             />
           </div>
