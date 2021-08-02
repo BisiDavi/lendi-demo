@@ -35,8 +35,8 @@ export default function Menu() {
                 ))}
             </ul>
             <div className="button-group flex items-center">
-                <Button className={`${classNames(s.button, s.white)} p-4 m-7`} text="TALK TO AN EXPERT" />
-                <Button className={`${classNames(s.button, s.green)} p-4 m-7`} text="SIGN IN" />
+                <Button className={`${classNames(s.button, s.white)} p-4 m-7 w-44`} text="TALK TO AN EXPERT" />
+                <Button className={`${classNames(s.button, s.green)} p-4 m-7 w-44`} text="SIGN IN" />
             </div>
         </nav>
     )

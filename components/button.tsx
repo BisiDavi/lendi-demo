@@ -1,4 +1,3 @@
-import styles from '../styles/button.module.scss'
 
 export default function Button({className, text, icon}:ButtonProps) {
     return (        

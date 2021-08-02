@@ -4,6 +4,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  --lendi-ui-size: 16px;
+  --deep-green-color: #003046;
+  --gray-background-color: rgb(241, 241, 241);
 }
 
 a {

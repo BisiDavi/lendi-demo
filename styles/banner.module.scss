@@ -1,0 +1,13 @@
+.banner {
+  background-image: url("/home-page-illustration.png");
+  height: 100vh;
+  background-color: var(--deep-green-color);
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// service banner
+.serviceBanner {
+  background-color: var(--gray-background-color);
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "image": "/choice.png",
+    "title": "Choice",
+    "text": "Choose from 35+ lenders to access better rates and more features."
+  },
+  {
+    "image": "/convience.png",
+    "title": "Convenience",
+    "text": "Our technology makes it easy. No paperwork, just apply online."
+  },
+  {
+    "image": "/you-first.png",
+    "title": "You first",
+    "text": "We work for you, not the lender. We act in your best interest."
+  },
+  {
+    "image": "/expert-support.png",
+    "title": "Expert support",
+    "text": "We keep you updated on your loan via phone, email or live chat."
+  }
+]
