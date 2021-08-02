@@ -1,4 +1,9 @@
-import { HomeBanner, ServiceBanner, PartnersBanner } from "../components/";
+import {
+  HomeBanner,
+  ServiceBanner,
+  PartnersBanner,
+  MethodologyBanner,
+} from "../components/";
 
 export default function Home() {
   return (
@@ -6,6 +11,7 @@ export default function Home() {
       <HomeBanner />
       <ServiceBanner />
       <PartnersBanner />
+      <MethodologyBanner />
     </div>
   );
 }
