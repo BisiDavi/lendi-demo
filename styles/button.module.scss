@@ -11,16 +11,11 @@ $btn-white-green: rgb(0, 192, 165);
   word-spacing: normal;
   cursor: pointer;
   box-sizing: border-box;
-  border-radius: 6px;
   font-weight: 700;
   line-height: 1;
   text-align: center;
   transition: all 0.1s ease 0s;
   text-transform: uppercase;
-  height: calc(2.5 * var(--lendi-ui-size));
-  padding: calc(0.75 * var(--lendi-ui-size));
-  font-size: calc(0.75 * var(--lendi-ui-size));
-  letter-spacing: calc(0.05 * var(--lendi-ui-size));
   font-family: "Open Sans", sans-serif;
   border: 1px solid rgb(0, 192, 165);
 }

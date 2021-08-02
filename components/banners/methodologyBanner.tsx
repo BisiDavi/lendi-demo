@@ -1,7 +1,9 @@
 import Image from "next/image";
 import methodology from "@json/methodology.json";
-import s from "@styles/banner.module.scss";
 import classNames from "classnames";
+import Button from "@components/button";
+import s from "@styles/banner.module.scss";
+import b from "@styles/button.module.scss";
 
 export default function MethodologyBanner() {
   return (
@@ -29,6 +31,13 @@ export default function MethodologyBanner() {
               </div>
             ))}
           </div>
+          <Button
+            className={`${classNames(
+              b.button,
+              b.green
+            )} rounded-full py-2 px-10 flex items-center`}
+            text="Get Started"
+          />
         </div>
       </div>
     </div>

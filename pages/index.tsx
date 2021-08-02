@@ -3,6 +3,7 @@ import {
   ServiceBanner,
   PartnersBanner,
   MethodologyBanner,
+  ProductReviewBanner,
 } from "../components/";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <ServiceBanner />
       <PartnersBanner />
       <MethodologyBanner />
+      <ProductReviewBanner />
     </div>
   );
 }

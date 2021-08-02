@@ -1,0 +1,10 @@
+// review card
+.reviewCard {
+  padding: 40px 32px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border-bottom-right-radius: 90px;
+  background-color: var(--light-gray);
+}
