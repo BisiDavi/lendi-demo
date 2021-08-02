@@ -1,0 +1,39 @@
+@import 'mixins';
+
+$lendi-ui-size: 16px;
+$white-bg: rgb(255, 255, 255);
+$green-bg: rgb(0, 192, 165);
+$btn-white-color: rgb(255, 255, 255);
+$btn-white-green:rgb(0, 192, 165);
+
+
+.button{
+white-space: normal;
+border-spacing: 2px;
+word-spacing: normal;
+cursor: pointer;
+box-sizing: border-box;
+border-radius: 6px;
+font-weight: 700;
+line-height: 1;
+text-align: center;
+transition: all 0.1s ease 0s;
+text-transform: uppercase;
+height: calc(2.5 * $lendi-ui-size);
+padding: 0 calc(0.75 * $lendi-ui-size);
+font-size: calc(0.75 * var(--lendi-ui-size));
+letter-spacing: calc(0.05 * var(--lendi-ui-size));
+font-family: "Open Sans", sans-serif;
+border: 1px solid rgb(0, 192, 165);
+}
+
+.white{
+    color: $btn-white-green;
+    background-color: $white-bg;
+}
+
+.green{
+    color:$btn-white-color;
+    background-color: $green-bg;
+
+}
