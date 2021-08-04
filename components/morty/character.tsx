@@ -22,11 +22,11 @@ export default function Character({ character }: characterProps) {
         height={150}
         width={150}
       />
-      <div className="text ml-2">
+      <div className="text ml-6">
         <h3 className="font-bold text-xl">{character.name}</h3>
         <h5>{character.gender}</h5>
-        <h5>{colorText(character.status)}</h5>
-        <h5>{character.origin?.name}</h5>
+        {colorText(character.status)}
+        <h5 className="italic">{character.origin?.name}</h5>
       </div>
     </div>
   );

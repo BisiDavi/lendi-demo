@@ -1,5 +1,6 @@
 import Characters from "@components/morty/characters";
 import { useQuery } from "@apollo/react-hooks";
+import Searchinput from "@components/morty/searchinput";
 import { GET_CHARACTERS_QUERY } from "@client/query";
 
 export default function UrlFilter() {
@@ -19,15 +20,16 @@ export default function UrlFilter() {
       <div className="content">
         <div className="text-intro p-5 my-5 mx-auto">
           <h1 className="font-bold text-4xl my-3 text-center">
-            URL Filter and Sorting{" "}
+            URL Filter & Sorting{" "}
           </h1>
           <h4 className="text-2xl text-center">
             Using The Rick and Morty API (Graphql)
           </h4>
         </div>
+        <Searchinput />
         <Characters characters={characters.results} />
       </div>
-      <footer className="bg-black flex justify-center h-44">
+      <footer className="bg-gray-400 flex justify-center h-44">
         <h5 className="text-center m-auto text-white text-xl font-bold">
           A quick demo of URL sort and filter in Next.js by{" "}
           <a
