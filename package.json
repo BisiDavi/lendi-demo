@@ -9,7 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-boost": "^0.4.9",
     "classnames": "^2.3.1",
+    "formik": "^2.2.9",
+    "graphql": "^15.5.1",
+    "graphql-request": "^3.5.0",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
