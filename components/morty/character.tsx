@@ -15,22 +15,20 @@ export default function Character({ character }: characterProps) {
     }
   }
   return (
-    <div className="character card rounded-lg items-center bg-gray-100 flex m-3">
-      <span className="w-1/2">
-        <Image
-          src={character.image}
-          alt={character.name}
-          height={150}
-          width={150}
-        />
-      </span>
-      <div className="text ml-3 w-1/2">
-        <h3 className="font-bold lg:text-xl md:text-lg sm:text-sm">
+    <div className="character card rounded-lg lg:items-center bg-gray-100 flex m-2 lg:flex-row flex-col lg:flex-row">
+      <Image
+        src={character.image}
+        alt={character.name}
+        height={150}
+        width={200}
+      />
+      <div className="text flex flex-col p-2">
+        <h3 className="font-bold lg:text-lg md:text-md sm:text-sm text-left">
           {character.name}
         </h3>
         <h5>{character.gender}</h5>
         {colorText(character.status)}
-        <h5 className="italic lg:text-lg sm:text-base">
+        <h5 className="italic lg:text-sm sm:text-base">
           {character.origin?.name}
         </h5>
       </div>

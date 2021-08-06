@@ -1,14 +1,12 @@
 import Characters from "@components/morty/characters";
 import { useQuery } from "@apollo/react-hooks";
 import { GET_CHARACTERS_QUERY } from "@client/query";
+import AppLoader from "@components/app-loader";
 
 export default function UrlFilter() {
   const { data, loading, error } = useQuery(GET_CHARACTERS_QUERY);
 
   const characters = data?.characters;
-
-  if (loading) return <p>Loading ...</p>;
-  if (error) return <p>{error.message}</p>;
 
   return (
     <div className="url-filter-page w-full">
@@ -29,8 +27,18 @@ export default function UrlFilter() {
             Using The Rick and Morty API (Graphql)
           </h4>
         </div>
-        {/* <Searchinput /> */}
-        <Characters characters={characters.results} />
+
+        {loading ? (
+          <AppLoader />
+        ) : (
+          <Characters characters={characters.results} />
+        )}
+        {error && (
+          <div className="flex flex-row">
+            <h3 className="text-lg text-red">Oops, An error just occured</h3>
+            <p className="text-red">{error.message}</p>
+          </div>
+        )}
       </div>
       <footer className="bg-gray-400 flex justify-center h-44">
         <h5 className="text-center m-auto text-white mx-5 lg:text-xl sm:text-sm font-bold">
