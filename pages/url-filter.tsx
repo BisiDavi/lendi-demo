@@ -2,6 +2,7 @@ import Characters from "@components/morty/characters";
 import { useQuery } from "@apollo/react-hooks";
 import { GET_CHARACTERS_QUERY } from "@client/query";
 import AppLoader from "@components/app-loader";
+import FilterCharacters from "@components/morty/filter-characters";
 
 export default function UrlFilter() {
   const { data, loading, error } = useQuery(GET_CHARACTERS_QUERY);
@@ -27,7 +28,7 @@ export default function UrlFilter() {
             Using The Rick and Morty API (Graphql)
           </h4>
         </div>
-
+        <FilterCharacters />
         {loading ? (
           <AppLoader />
         ) : (

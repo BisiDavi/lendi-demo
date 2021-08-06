@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Status",
+    "content": ["Alive", "Dead"]
+  },
+  {
+    "title": "Gender",
+    "content": ["Male", "Female"]
+  },
+  {
+    "title": "Place",
+    "content": ["Earth", "Unknown"]
+  }
+]

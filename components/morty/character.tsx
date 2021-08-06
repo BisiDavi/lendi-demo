@@ -19,7 +19,7 @@ export default function Character({ character }: characterProps) {
       <Image
         src={character.image}
         alt={character.name}
-        height={150}
+        height={200}
         width={200}
       />
       <div className="text flex flex-col p-2">
