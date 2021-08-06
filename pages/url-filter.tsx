@@ -1,6 +1,5 @@
 import Characters from "@components/morty/characters";
 import { useQuery } from "@apollo/react-hooks";
-import Searchinput from "@components/morty/searchinput";
 import { GET_CHARACTERS_QUERY } from "@client/query";
 
 export default function UrlFilter() {
