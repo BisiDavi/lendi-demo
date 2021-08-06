@@ -14,8 +14,8 @@ export default function UrlFilter() {
   return (
     <div className="url-filter-page w-full">
       <header className="flex justify-between items-center p-5 bg-gray-200">
-        <h4 className="text-black text-2xl font-bold">Hello</h4>
-        <p className="text-red-600 text-2xl font-bold">Welcome Doug</p>
+        <h4 className="text-black text-2xl font-bold">Rick & Morty API</h4>
+        <p className="text-red-600 text-2xl font-bold">Hello Doug</p>
       </header>
       <div className="content">
         <div className="text-intro p-5 my-5 mx-auto">
@@ -26,7 +26,7 @@ export default function UrlFilter() {
             Using The Rick and Morty API (Graphql)
           </h4>
         </div>
-        <Searchinput />
+        {/* <Searchinput /> */}
         <Characters characters={characters.results} />
       </div>
       <footer className="bg-gray-400 flex justify-center h-44">

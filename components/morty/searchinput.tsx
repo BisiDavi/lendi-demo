@@ -1,18 +1,21 @@
 import { useState, useEffect } from "react";
-import { useRouter } from "next/router";
-import { useQueryState } from "next-usequerystate";
+import router, { useRouter } from "next/router";
 
 export default function Searchinput() {
   const [searchField, setSearchField] = useState<string>("name");
-  const { query } = useRouter();
+  const {query} = useRouter();
 
   console.log("query", query);
 
-  const [searchValue, setSearchValue] = useState<string>(searchField);
+  const [searchValue, setSearchValue] = useState<string>("");
 
-  //   useEffect(() => {
-  //     query[searchField] = searchValue;
-  //   }, [searchValue, searchField, query]);
+  useEffect(() => {
+      router.push({
+         query: { query[searchField]: searchValue },
+         shallow:true
+      })
+
+  }, [])
 
   function onInputChangeHandler(e) {
     setSearchValue(e.target.value);
@@ -25,6 +28,8 @@ export default function Searchinput() {
   const searchFields = ["name", "status", "gender", "origin"];
 
   console.log("searchValue", searchValue);
+  console.log("searchField", searchField);
+
   return (
     <div className="searchform">
       <input
@@ -36,15 +41,16 @@ export default function Searchinput() {
         className="rounded-full text-center border-red-600 focus-within:border-red-700 hover:border-red-400 flex m-auto my-5 bg-gray-300 w-1/4 h-12"
       />
       <div className="searchfield flex items-center justify-evenly w-1/2 m-auto">
-        <h4>Search for either name |</h4>
-        {searchFields.map((searchField) => (
-          <div key={searchField} className="flex items-center justify-center">
-            <label htmlFor="search" className="mx-2">
-              {searchField}
+        <h4 className="font-bold italic text-xl">Search for either name </h4>
+        {searchFields.map((sf) => (
+          <div key={sf} className="flex items-center justify-center">
+            <label htmlFor="search" className="mx-2 font-bold italic text-xl">
+              {sf}
             </label>
             <input
               type="radio"
-              value={searchField}
+              value={sf}
+              checked={sf === searchField}
               onChange={onCheckHandler}
               name="search"
             />
